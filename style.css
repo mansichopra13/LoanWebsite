@@ -1,0 +1,192 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Merriweather", serif; */
+}
+.carousel-item img{
+    width: 100%;
+    height: 90vh;
+}
+
+.row img{
+    width:90%;
+    height: 60vh;
+}
+.item img{
+    border: 2px solid whitesmoke;
+}
+
+/* .background{
+    background: rgba(0,0,0,0.7) url(./bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+} */
+
+.firstSection{
+    height: 100vh;
+}
+
+/* .box-main{
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    color :white;
+    margin-top: 80px;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 90%;
+    margin:auto;
+    height: 80%;
+} */
+.firstHalf h1{
+    font-size: 40px;
+    font-family: fangsong;
+}
+
+.firstHalf{
+    width :100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px; 
+    margin:20px;
+    
+}
+
+/* .secondHalf{
+    height: 100vh;
+
+} */
+
+/* .secondHalf img{
+    width:100%;
+    border : 1px solid white;
+    border-radius: 150px;
+    height : 500%;
+    display: block;
+    margin: auto;
+    padding: 2px;
+} */
+
+/* .btn {
+    padding: 5px 13px;
+    margin :5px 0 ;
+    border : 2px solid white;
+    border-radius: 7px;
+    color : white;
+    background: none;
+    cursor: pointer;
+
+} */
+.btn:hover{
+    background-color: #333;
+    color:white;
+}
+.alltag{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* .fadeInUp {
+    visibility: visible;
+    animation-name: fadeInUp;
+    
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  } */
+
+
+/* @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  } */
+
+  .first h1{
+    font-size: 40px;
+    font-family: fangsong;
+}
+
+.first{
+    width :75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 50px; 
+    margin:20px;
+    
+}
+.second{
+    width : 100%;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcyan;
+}
+
+.animated-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    font-size: larger;
+  }
+  
+  .animate__animated {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+  }
+
+  
+  
+  .animate__fadeInUp {
+    animation-name: fadeInUp;
+  }
+  
+  .animate__delay-1s {
+    animation-delay: 1s;
+  }
+  
+  .animate__delay-2s {
+    animation-delay: 2s;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .text-small{
+    color:rgb(26, 25, 25);
+    
+    font-size: large;
+  }
+  .text-big{
+    color:rgb(26, 25, 25);
+    
+    font-size: 50px;
+  }
+  .carousel-item img{
+    opacity: 0.7;
+
+
+  }
+ 
